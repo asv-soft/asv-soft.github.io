@@ -32,7 +32,7 @@ html {
 }
 
 #fh5co-hero-wrapper {
-  height: 400px;
+  height: 500px;
   width: 100%;
   background: url("../img/banner-bg.png") no-repeat center;
   border-radius: 0 0 50% 50% / 4%;
@@ -157,8 +157,8 @@ html {
   width: 400px;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
   padding: 20px;
   top: 1px;
   border-radius: 15px;
@@ -468,7 +468,7 @@ html {
   }
 
   #fh5co-hero-wrapper {
-    height: 95vh;
+    height: 500px;
   }
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
@@ -488,12 +488,8 @@ html {
   }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
-    width: 60px;
-    float: none;
     display: block;
     margin: 0 auto;
-    padding-right: 0px;
-    margin-bottom: 20px;
     position: relative;
     top: 1px;
   }
@@ -626,7 +622,7 @@ html {
   }
 
   #fh5co-hero-wrapper {
-    height: 800px;
+    height: 500px;
   }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns {
@@ -753,7 +749,7 @@ html {
 }
 @media screen and (max-width: 520px) {
   #fh5co-hero-wrapper {
-    height: 900px;
+    height: 500px;
   }
 
   .fh5co-hero-inner > h1 {
