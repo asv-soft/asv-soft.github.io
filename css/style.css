@@ -154,7 +154,7 @@ html {
   display: flex;
   justify-content: center;
   margin: 30px auto 60px auto;
-  width: 400px;
+  width: 350px;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
   height: 100%;
@@ -492,6 +492,7 @@ html {
     margin: 0 auto;
     position: relative;
     top: 1px;
+    width: 100%;
   }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
@@ -749,7 +750,20 @@ html {
 }
 @media screen and (max-width: 520px) {
   #fh5co-hero-wrapper {
-    height: 500px;
+    height: 650px;
+  }
+
+  .fh5co-advantages-outer .fh5co-advantages-grid-columns {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 1px;
+    width: 70px;
   }
 
   .fh5co-hero-inner > h1 {
