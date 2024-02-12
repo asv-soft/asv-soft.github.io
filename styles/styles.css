@@ -33,44 +33,57 @@
   font-style: normal;
   font-weight: normal;
 }
-
 p{
   font-family: "Comfortaa-Regular";
+  font-size: 1.5em;
 }
 h3{
   font-family: "Comfortaa-Medium";
+  font-size: 1.5em;
 }
 h4{
   font-family: "Comfortaa-SemiBold";
+  font-size: 1.5em;
 }
 h1{
   font-family: "Comfortaa-Bold";
+  font-size: 1.5em;
 }
 a{
   font-family: "Comfortaa-Regular";
+  font-size: 1.5em;
 }
 .btn{
   font-family: "Comfortaa-Regular";
+  font-size: 1.5em;
 }
 body{
   overflow-x: hidden;
   overflow-y: hidden;
-}
+  margin-left: auto;
+  margin-right: auto;
+  
+ }
 
 option{
   font-family: "Comfortaa-Regular" ;
 }
-
-.lang-internet-label{
+.lang-internet-label{         
   text-wrap: wrap;
 }
-
+ul{
+  list-style-type: none;
+}
+.footer-list{
+  list-style: none;
+}
+.container-fluid{
+  overflow: hidden;
+}
 footer{
   position: sticky ;
-  
   color: gray;
   background-color: rgb(61, 24, 24);
-  
 }
 li{
   float: left;
@@ -81,21 +94,13 @@ li{
   text-decoration: none;
   color: currentColor;
 }
-.plane-svg{
- position: relative;
- rotate: 90deg;
- left: 0;
- animation: moveRight 10s infinite;
- margin-left: 30px;
-}
 
 .explain-text{
+  padding-top: 2vh;
   
-  padding-top: 30px;
-    position: relative;
     
 }
-navbar{
+.navbar{
   position: sticky;
 }
 
@@ -106,7 +111,6 @@ navbar{
 .advertisment{
   padding-left: 20%;
   padding-right: 20%;
-  
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -118,18 +122,19 @@ navbar{
 }
 
 .mainContainer{
- padding-bottom: 10px;
+  padding-bottom: 2%;
+  
   float: right;
   right: 0;
   border-radius: 30px 0 0 0;
-  background-image: url(/styles/image/screenshots/map.png); 
-  height: 86vh;
+   background-image: url(/styles/image/screenshots/map.png); 
+   height: 91vh;
    
 }
 .support-div{
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 3em;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -144,7 +149,7 @@ navbar{
 }
 .subMainContainer{
   overflow-y: scroll;
-  height: inherit;
+    height: inherit;
     border-radius: 30px 0 0 0;
     background-color: #2b3035;
 }
@@ -153,39 +158,22 @@ navbar{
 }
   .introduction-container{
     border-radius: inherit;
-    z-index: 0;
+    margin-top: auto;
+    margin-bottom: auto;
     background-color: #0d6efd;
-    height: 150px;
+    height: 20%;
   }
-  .drone-svg {
-    margin-right: 30px;
-    float: right;
-    position: relative;
-    animation: moveLeft 10s infinite;
-  }
-  
   .carousel-item{
     border-radius: inherit;
   }
   .carousel-inner{
     border-radius: inherit;
-    padding-bottom: 2%;
   }
   .carousel-container{
     border-radius: 30px;
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    
-     
-  }
-  @keyframes moveRight {
-    from { transform: translateY(100%); }
-    to { transform: translateY(-2500%); }
-  }
-  @keyframes moveLeft {
-    from { transform: translateX(100%); }
-    to { transform: translateX(-2500%); }
   }
 .text-justify{
   text-align: justify;
@@ -198,33 +186,33 @@ navbar{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    list-style: armenian;
+  
   }
-
-.nav-link{
+  .navbar-nav {
+    display: flex;
+  }
+  .nav-link{
   border-radius: 10px;
-	margin-top: 10px;
-}
-.nav-link:hover {
-
+	margin-top: 1vh;
+  }
+  .nav-link:hover {
   border-left-style: solid ;
   border-left-color: #0d6efd;
   border-left-width: 3px;
   background-color: gray;
   opacity: 0,7;
-}
-td{
+  }
+  .setup-div-label-div{
+    display: flex;
+  }
+  td{
   padding-left: 3px;
   padding-right: 3px;
-}
-  
-
+  }
   .headerSide{
     position: sticky;
     padding-left: 45px;
-    z-index: 1;
-    width: 5%;
-   
+    width: 5%; 
   }
   .nav-img-side{
     margin-left: auto;
@@ -233,24 +221,72 @@ td{
     height: 40px;
     fill: white;
   }
-  /* .setup-div-label-div{
-   
-  } */
-  @media screen and (max-width: 576px) {
+  
+  .icon-img{
+    margin-left: 20px;
+  }
 
+  @media screen and (max-width: 576px) {
+    .carousel-container{
+
+     margin-top: 30px;
+    }
+   .sidebar-sticky{
+    display: inline-block;
+   }
+    .mainContainer{
+      height: 84vh;
+      padding-top: 2vh;
+    }
+    .subMainContainer{
+
+      width: 90vw;
+    }
+    .explain-text{
+        padding: 2vh;      
+    }
+      .setup-div{
+        display: inline-block;
+      }
+      .setup-div-label-div{
+        padding-right: 20px;
+        display: inline-block;
+      }
+      .drone-control-div{
+        display: inline;
+
+      }
+      
+      .sidebar-sticky{
+        padding-left: 35%;
+      }
+      .lang-drone-control-automatic{
+        margin-top: 30px;
+        padding-top:10px;
+      }
+      .documentation-banner-div{
+        margin-bottom: 100px;
+      }
+    .support-div{
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20%;
+      display: inline-block;
+    }
+    .support-div-device{
+      margin-top: 30px;
+    }
     .headerSide{
       margin-left: 0;
-      padding-left: 10px;
       width: 100vw;
-      display: inline;
+      display: inline-block;
     }
     .header-company{
       margin-left: 0;
 
     }
-    li{
-      list-style-type: none;
-    }
+    
+    
   }
  
 

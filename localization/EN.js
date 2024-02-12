@@ -11,7 +11,7 @@ const langArrEN = {
     "lang-internet-label":"Network: Broadband internet connection for software updates and communication with drones",
     "lang-setup-install-label": "Installation and Setup",
     "lang-support-device": "Supported devices",
-    "lang-support-os": "Suppotred OS",
+    "lang-support-os": "Supported OS",
     "lang-drone-control": "Drone Control",
     "lang-drone-control-manual": "Manual Control",
     "lang-drone-control-automatic": "Automatic Control",
