@@ -1,0 +1,293 @@
+@font-face{
+  font-family:"Comfortaa-Bold" ;
+  src: url("/styles/fonts/Comfortaa-Bold.ttf")format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family:"Comfortaa-Light" ;
+  src: url("/styles/fonts/Comfortaa-Light.ttf")format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family:"Comfortaa-Regular" ;
+  src: url("/styles/fonts/Comfortaa-Regular.ttf")format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}  @font-face{
+  font-family:"Comfortaa-Medium" ;
+  src: url("/styles/fonts/Comfortaa-Medium.ttf")format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family:"Comfortaa-SemiBold" ;
+  src: url("/styles/fonts/Comfortaa-SemiBold.ttf")format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family:"PressStart2R-Regular" ;
+  src: url("/styles/fonts/PressStart2P-Regular.ttf")format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+p{
+  font-family: "Comfortaa-Regular";
+  font-size: 1.5em;
+}
+h3{
+  font-family: "Comfortaa-Medium";
+  font-size: 1.5em;
+}
+h4{
+  font-family: "Comfortaa-SemiBold";
+  font-size: 1.5em;
+}
+h1{
+  font-family: "Comfortaa-Bold";
+  font-size: 1.5em;
+}
+a{
+  font-family: "Comfortaa-Regular";
+  font-size: 1.5em;
+}
+.btn{
+  font-family: "Comfortaa-Regular";
+  font-size: 1.5em;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  
+ }
+
+option{
+  font-family: "Comfortaa-Regular" ;
+}
+.lang-internet-label{         
+  text-wrap: wrap;
+}
+ul{
+  list-style-type: none;
+}
+.footer-list{
+  list-style: none;
+}
+.container-fluid{
+  overflow: hidden;
+}
+footer{
+  position: sticky ;
+  color: gray;
+  background-color: rgb(61, 24, 24);
+}
+li{
+  float: left;
+  list-style-type: none;
+}
+
+.theme_label{
+  text-decoration: none;
+  color: currentColor;
+}
+
+.explain-text{
+  padding-top: 2vh;
+  
+    
+}
+.navbar{
+  position: sticky;
+}
+
+.header-company-div
+{
+  display: flex;
+}
+.advertisment{
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.header-company{
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContainer{
+  padding-bottom: 2%;
+  
+  float: right;
+  right: 0;
+  border-radius: 30px 0 0 0;
+   background-image: url(/styles/image/screenshots/map.png); 
+   height: 91vh;
+   
+}
+.support-div{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.support-div-os{
+  margin-left: auto;
+  margin-right: auto; 
+}
+.support-div-device{
+ margin-left: auto;
+ margin-right: auto;
+}
+.subMainContainer{
+  overflow-y: scroll;
+    height: inherit;
+    border-radius: 30px 0 0 0;
+    background-color: #2b3035;
+}
+.sidebar-sticky{
+  padding-left: 20%;
+}
+  .introduction-container{
+    border-radius: inherit;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #0d6efd;
+    height: 20%;
+  }
+  .carousel-item{
+    border-radius: inherit;
+  }
+  .carousel-inner{
+    border-radius: inherit;
+  }
+  .carousel-container{
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+.text-justify{
+  text-align: justify;
+}
+  .drone-control-div{
+    display: flex;
+    text-align: center;
+  }
+  .system-requirements-list{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+  }
+  .navbar-nav {
+    display: flex;
+  }
+  .nav-link{
+  border-radius: 10px;
+	margin-top: 1vh;
+  }
+  .nav-link:hover {
+  border-left-style: solid ;
+  border-left-color: #0d6efd;
+  border-left-width: 3px;
+  background-color: gray;
+  opacity: 0,7;
+  }
+  .setup-div-label-div{
+    display: flex;
+  }
+  td{
+  padding-left: 3px;
+  padding-right: 3px;
+  }
+  .headerSide{
+    position: sticky;
+    padding-left: 45px;
+    width: 5%; 
+  }
+  .nav-img-side{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    height: 40px;
+    fill: white;
+  }
+  
+  .icon-img{
+    margin-left: 20px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .carousel-container{
+
+     margin-top: 30px;
+    }
+   .sidebar-sticky{
+    display: inline-block;
+   }
+    .mainContainer{
+      height: 84vh;
+      padding-top: 2vh;
+    }
+    .subMainContainer{
+
+      width: 90vw;
+    }
+    .explain-text{
+        padding: 2vh;      
+    }
+      .setup-div{
+        display: inline-block;
+      }
+      .setup-div-label-div{
+        padding-right: 20px;
+        display: inline-block;
+      }
+      .drone-control-div{
+        display: inline;
+
+      }
+      
+      .sidebar-sticky{
+        padding-left: 35%;
+      }
+      .lang-drone-control-automatic{
+        margin-top: 30px;
+        padding-top:10px;
+      }
+      .documentation-banner-div{
+        margin-bottom: 100px;
+      }
+    .support-div{
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20%;
+      display: inline-block;
+    }
+    .support-div-device{
+      margin-top: 30px;
+    }
+    .headerSide{
+      margin-left: 0;
+      width: 100vw;
+      display: inline-block;
+    }
+    .header-company{
+      margin-left: 0;
+
+    }
+    
+    
+  }
+ 
+
+  
