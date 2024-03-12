@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.2788c9ca.css",
-    "main.js": "/static/js/main.a68ff7fc.js",
+    "main.css": "/static/css/main.f8a8a9c6.css",
+    "main.js": "/static/js/main.09cf0eeb.js",
     "static/media/screenshot-connections.bmp": "/static/media/screenshot-connections.0d5a7e25c36e781d7f4c.bmp",
     "static/media/screenshot-flights.bmp": "/static/media/screenshot-flights.b57018e29c06b8b552a3.bmp",
+    "static/media/screenshot-log-messages.bmp": "/static/media/screenshot-log-messages.22d30c12c6a623481fde.bmp",
+    "static/media/screenshot-packet-viewer.bmp": "/static/media/screenshot-packet-viewer.9f3f34619e0088734608.bmp",
     "static/media/screenshot-parameters-editor.bmp": "/static/media/screenshot-parameters-editor.2f25ec4206c084c2e86c.bmp",
-    "static/media/screenshot-settings-extended.bmp": "/static/media/screenshot-settings-extended.78718c7e7c08ca5c6e70.bmp",
-    "static/media/PressStart2P-Regular.ttf": "/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
-    "static/media/Comfortaa-SemiBold.ttf": "/static/media/Comfortaa-SemiBold.47b7aa559e6731360445.ttf",
-    "static/media/Comfortaa-Medium.ttf": "/static/media/Comfortaa-Medium.db5c74bd40268b35dc93.ttf",
-    "static/media/Comfortaa-Regular.ttf": "/static/media/Comfortaa-Regular.051d690872878482e7e7.ttf",
-    "static/media/Comfortaa-Light.ttf": "/static/media/Comfortaa-Light.2d79c8b673318d831c9b.ttf",
-    "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.059cc3e0c5d00a88354f.ttf",
+    "static/media/icon.png": "/static/media/icon.1e1db6cb50ea7f3af34a.png",
+    "static/media/swiper-background.png": "/static/media/swiper-background.73b46f8716816c074ff8.png",
+    "static/media/platform-tux.svg": "/static/media/platform-tux.09d5a4f37a7f6e2fd91b8fe20e60a4bb.svg",
+    "static/media/platform-macos.svg": "/static/media/platform-macos.0ac01477bd0ac24fc63c625f828a361f.svg",
+    "static/media/platform-ios.svg": "/static/media/platform-ios.80c4e718b8579d36269522a7f48ff150.svg",
+    "static/media/platform-android.svg": "/static/media/platform-android.b121defc0eea2016cc8c789586bb38b7.svg",
+    "static/media/github.svg": "/static/media/github.781b1d8922265fec45569dde6e30d45c.svg",
     "index.html": "/index.html",
-    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.2788c9ca.css.map": "/static/css/main.2788c9ca.css.map",
-    "main.a68ff7fc.js.map": "/static/js/main.a68ff7fc.js.map"
+    "static/media/platform-windows.svg": "/static/media/platform-windows.dc1519c833434cb4044184479b84eba6.svg",
+    "static/media/youtube.svg": "/static/media/youtube.643c15b5519d9285cbd509ec4bb06c95.svg",
+    "static/media/telegram.svg": "/static/media/telegram.607dd08c46eb8db8f889119f584bef82.svg",
+    "main.f8a8a9c6.css.map": "/static/css/main.f8a8a9c6.css.map",
+    "main.09cf0eeb.js.map": "/static/js/main.09cf0eeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.2788c9ca.css",
-    "static/js/main.a68ff7fc.js"
+    "static/css/main.f8a8a9c6.css",
+    "static/js/main.09cf0eeb.js"
   ]
 }
